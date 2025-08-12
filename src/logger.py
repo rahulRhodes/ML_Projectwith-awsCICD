@@ -12,15 +12,15 @@ logging.basicConfig(
     filename=LOG_FILE_PATH,
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
-#     %(asctime)s = timestamp
+    #     %(asctime)s = timestamp
 
-# %(lineno)d = line number where log was written
+    # %(lineno)d = line number where log was written
 
-# %(name)s = module name (usually "root")
+    # %(name)s = module name (usually "root")
 
-# %(levelname)s = INFO, WARNING, ERROR, etc.
+    # %(levelname)s = INFO, WARNING, ERROR, etc.
 
-# %(message)s = your log message
+    # %(message)s = your log message
     
 
 )
